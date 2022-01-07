@@ -1,0 +1,256 @@
+:root {
+    --brand-blue: #2196F3;
+    --brand-black: #212121;
+    --brand-white: #ffffff;
+    --brand-fon: #2F303A;
+    --brand-grey:#757575;
+    --brand-black-studio: #000000;
+    
+}
+ /* СТУДИЯ 1 */
+body {
+color: var(--brand-black);
+font-family: 'Roboto', sans-serif;
+}
+
+
+/* header  */
+   /* ВАРИАНТ 1 */
+
+
+   /* .link-logo{
+text-decoration: none;
+color: var(--brand-black-studio);
+
+font-family: Raleway;
+font-weight: 700px;
+font-size: 26px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+}
+.link-logo:hover, .link-logo:focus{
+    color: var(--brand-white);
+}
+.link-logo:active{
+    color:var(--brand-white);
+}
+.list-nav, header .list-items{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+list-style-type: none;
+}
+header .list-adress{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--brand-grey);
+list-style-type: none;
+
+}
+
+.text-web{
+    color: var(--brand-blue);
+}
+.list-items{
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--brand-black);
+    
+}
+.link:hover, .link:focus{
+    color: var(--brand-blue);
+}
+.link:active{
+    color: var(--brand-blue);
+} */
+
+     /*   ВАРИАНТ 2 */
+.link-logo{
+    text-decoration: none;
+    color: var(--brand-black);
+    font-family: Raleway;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+   }
+   
+   .text-web {
+       color: var(--brand-blue)
+   }
+   .link-logo:hover, .link-logo:focus{
+       color: var(--brand-blue);
+   }
+   .link-logo:active{
+       color: var(--brand-blue);
+   }
+   .list-nav{
+       font-weight: 500;
+       font-size: 14px;
+       line-height: 1.14;
+       letter-spacing: 0.02em;
+   }
+   .list-adress{
+       font-weight: 500;
+   font-size: 14px;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
+   color: var(--brand-grey);
+   }
+   li { 
+   list-style-type: none;
+   
+   }
+   a {
+       color: var(--brand-black);
+       text-decoration: none;
+   }
+   .link:hover, .link:focus{
+       color: var(--brand-blue);
+   }
+   .link:active{
+       color: var(--brand-blue);
+   }
+   
+   
+   
+   .list-items link:hover, .list-items link:focus{
+       color: var(--brand-blue);
+   }
+   .list-items link:active{
+       color-interpolation-filters: var(--brand-blue link);
+   }
+
+
+
+/* основная часть */
+h1 {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--brand-black);
+}
+.button {
+background-color: var(--brand-blue);
+cursor: pointer;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+.button:hover, .button:focus{
+    color: var(--brand-white);
+}
+.button:active{
+    color:var(--brand-white)
+}
+.headline {
+font-weight: 700;
+text-align: center;
+font-size: 36px;
+line-height: 1.6;
+letter-spacing: 0.03em;
+}
+.feature{
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+}
+.text-feature{
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: var(--brand-grey);
+}
+.team{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.3;
+letter-spacing: 0.03em;
+}
+.class{
+font-size: 16px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+color: var(--brand-grey);  
+}
+/*  footer*/
+
+footer{
+    background-color: var(--brand-fon);
+}
+.footer  .link-logo{
+    color: var(--brand-white);
+}
+.link-logo:hover, .link-logo:focus{
+    color: var(--brand-blue);
+}
+.link-logo:active{
+    color:var(--brand-blue);
+}
+.adress{
+    color: var(--brand-white);
+}
+.adress:hover, .adress:focus{
+    color: var(--brand-blue);
+}
+.adress:active{
+    color: var(--brand-blue);
+}
+footer .link{
+color: rgba(255, 255, 255, 0.6);
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+/* ПОРТФОЛИО */
+
+/* MEIN */
+.list-button{
+    cursor: pointer;
+    background-color: var(--brand-blue);
+
+    font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
+    
+}
+.list-button:hover, .list-button:focus{
+    color:var(--brand-white)
+}
+.list-button:active{
+    color: var(--brand-white);
+}
+.article{
+    font-weight:700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+p {
+    font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+color: var(--brand-grey);
+}
