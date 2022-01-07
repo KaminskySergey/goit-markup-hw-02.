@@ -141,7 +141,6 @@ color: var(--brand-black);
 }
 .button {
 background-color: var(--brand-blue);
-cursor: pointer;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.87;
@@ -225,7 +224,6 @@ letter-spacing: 0.03em;
 
 /* MEIN */
 .list-button{
-    cursor: pointer;
     background-color: var(--brand-blue);
 
     font-weight: 500;
