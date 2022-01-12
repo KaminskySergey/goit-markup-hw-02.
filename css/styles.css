@@ -223,8 +223,7 @@ footer{
     color: var(--brand-white);
 }
 .footer-item-adress{
-font-style: normal;   
-font-size: 14px;
+ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--brand-white);
@@ -246,11 +245,10 @@ letter-spacing: 0.03em;
 
 .services-list{
     font-weight: 500;
-    font-style: normal;
     font-size: 16px;
     line-height: 1.6;
     letter-spacing: 0.03em; 
-     
+
 }
 .services-btn{
 background-color: var(--brand-background-team);
